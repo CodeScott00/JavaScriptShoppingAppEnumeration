@@ -32,3 +32,4 @@ const handleDeleteAll = function (event) {                 //2
 
 }
 
+

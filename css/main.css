@@ -1,7 +1,6 @@
 li {
     list-style-type: square;
-    color: red;
-    display: ;
+    color: rgb(80, 133, 201);
     justify-content: center;
     align-self: stretch;
     margin: 0 10px;
@@ -26,13 +25,14 @@ ul {
   }
 
   .form-item {
-     background-color: khaki; 
+     background-color: rgb(164, 184, 237); 
      display: inline;
      padding-left: 100px;
      margin-left: 100px; 
      width: 1000px;
      height: 1000px;
      box-sizing: border-box;
+     outline-color: rgb(176, 67, 27);
      
   }   
 
@@ -64,3 +64,7 @@ h3 {
     text-align: center;
 }
 
+#form-wrapper {
+    outline:aliceblue;
+    background-color: aliceblue;
+}
